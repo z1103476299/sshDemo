@@ -22,7 +22,7 @@
     </div>
   </div>
 </div>
-<form action="employee_login" method="post">
+<form action="employee_login.action" method="post">
   <div class="loginBox">
       <h3><s:actionerror/></h3>
     <div class="login_cont">

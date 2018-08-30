@@ -10,12 +10,20 @@
         <action name="employee_*" method="{1}" class="employeeAction">
             <result name="input">/index.jsp</result>
             <result name="success" type="redirect">/frame.jsp</result>
-            
+            <result name="findAll">/jsp/employee/list.jsp</result>
+            <result name="saveUI">/jsp/employee/add.jsp</result>
+            <result name="edit_success">/jsp/employee/edit.jsp</result>
+            <result name="save_success" type="redirectAction">employee_findAll.action</result>
+            <result name="update_success" type="redirectAction">employee_findAll.action</result>
+            <result name="delete_success" type="redirectAction">employee_findAll.action</result>
         </action>
         <action name="department_*" method="{1}" class="departmentAction">
             <result name="findAll">/jsp/department/list.jsp</result>
             <result name="saveUI">/jsp/department/add.jsp</result>
             <result name="save_success" type="redirectAction">department_findAll.action</result>
+            <result name="edit_success">/jsp/department/edit.jsp</result>
+            <result name="update" type="redirectAction">department_findAll.action</result>
+            <result name="delete_success" type="redirectAction">department_findAll.action</result>
         </action>
     </package>
 </struts>

@@ -1,6 +1,9 @@
 <component name="libraryTable">
   <library name="Spring-4.3.16.RELEASE" type="spring">
     <properties version="4.3.16.RELEASE" />
+    <ANNOTATIONS>
+      <root url="file://$PROJECT_DIR$/../ssh" />
+    </ANNOTATIONS>
     <CLASSES>
       <root url="jar://$PROJECT_DIR$/lib/spring-aop-4.3.16.RELEASE.jar!/" />
       <root url="jar://$PROJECT_DIR$/lib/spring-context-4.3.16.RELEASE.jar!/" />

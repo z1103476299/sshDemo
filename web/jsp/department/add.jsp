@@ -10,8 +10,8 @@
     </tr>
     <tr>
         <td align="right" >
-            <a href="javascript:onclick=a()">保存</a> &nbsp;&nbsp;
-            <a href="javascript:history.go(-1)">退回 </a>
+            <a href="javascript:onclick=a()" style="text-decoration: none">保存</a> &nbsp;&nbsp;
+            <a href="javascript:history.go(-1)" style="text-decoration: none">退回 </a>
         </td>
     </tr>
 </table>

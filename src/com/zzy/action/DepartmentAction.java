@@ -52,4 +52,24 @@ public class DepartmentAction extends ActionSupport implements ModelDriven<Depar
         return "save_success";
     }
 
+    //编辑部门的信息
+    public String edit(){
+       department =  departmentService.findById(department.getDid());
+        return "edit_success";
+    }
+
+    //修改部门执行方法
+    public String update(){
+        departmentService.update(department);
+        return "update";
+    }
+
+    public String delete(){
+        department=departmentService.findById(department.getDid());
+        departmentService.delete(department);
+        return "delete_success";
+    }
+
+
+
 }

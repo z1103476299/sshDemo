@@ -48,4 +48,24 @@ public class DepartmentService {
     public void save(Department department) {
         departmentDao.save(department);
     }
+
+    /**
+     * 业务层编辑部门方法
+     * @param did
+     */
+    public Department findById(Integer did) {
+        return departmentDao.findById(did);
+    }
+
+    public void update(Department department) {
+        departmentDao.update(department);
+    }
+
+    public void delete(Department department) {
+        departmentDao.delete(department);
+    }
+
+    public List<Department> findAll() {
+        return departmentDao.findAll();
+    }
 }

@@ -49,6 +49,7 @@
         <!--配置action类-->
             <bean id="employeeAction" class="com.zzy.action.EmployeeAction">
                 <property name="employeeService" ref="employeeService"/>
+                <property name="departmentService" ref="departmentService"/>
             </bean>
             <bean id="departmentAction" class="com.zzy.action.DepartmentAction">
                 <property name="departmentService" ref="departmentService"/>
