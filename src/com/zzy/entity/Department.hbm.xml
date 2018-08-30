@@ -3,7 +3,7 @@
         "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
         "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
 <hibernate-mapping>
-    <class name="com.zzy.entity.Department" catalog="departemnt">
+    <class name="com.zzy.entity.Department" table="department">
         <id name="did" column="did">
             <generator class="native"/>
         </id>

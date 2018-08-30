@@ -1,3 +1,4 @@
+<%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
 <style type="text/css">
@@ -15,34 +16,35 @@
 <body>
 <table border="0" width="900px">
 <tr>
-<td align="center" style="font-size:24px; color:#666"> ╡©це╧эюМ</td>
-</tr>
-<tr>
-<td align="right" > <a href="addDepartment.html">лМ╪с</a></td>
+<td align="center" style="font-size:24px; color:#999"> И┐╗И≈╗Г╝║Г░├</td>
 </tr>
 </table>
+
 <br/>
+
 <table cellspacing="0" border="1" class="table1">
 <thead>
-   <tr><th width="450">╡©цецШЁф</th><th  width="450">╠Ю╪╜</th></tr>
+   <tr><th width="450">И┐╗И≈╗Е░█Г╖╟</th><th  width="450">Г╪√Х╬▒</th></tr>
 </thead>
 <tbody>
 <tr>
-<td align="center">╡фнЯ╡©</td>
-<td align="center"><a href="editDept.html"><img src="../images/╠Ю╪╜.png"></a></td>
+<td align="center">Х╢╒Е┼║И┐╗</td>
+<td align="center"><a href="addDept.html">Ф╥╩Е┼═</a></td>
 </tr>
 </tbody>
 </table>
 <br/>
+
+
 <table border="0" cellspacing="0" cellpadding="0"  width="900px">
 <tr>
 <td align="right">
-   <span>╣з1/3рЁ</span>
+   <span>Г╛╛1/3И║╣</span>
    <span>
-       <a href="#">[йврЁ]</a>&nbsp;&nbsp;
-       <a href="#">[иор╩рЁ]</a>&nbsp;&nbsp;
-       <a href="#">[обр╩рЁ]</a>&nbsp;&nbsp;
-       <a href="#">[н╡рЁ]</a>&nbsp;&nbsp;
+       <a href="#">[И╕√И║╣]</a>&nbsp;&nbsp;
+       <a href="#">[Д╦┼Д╦─И║╣]</a>&nbsp;&nbsp;
+       <a href="#">[Д╦▀Д╦─И║╣]</a>&nbsp;&nbsp;
+       <a href="#">[Е╟╬И║╣]</a>&nbsp;&nbsp;
    </span>
 </td>
 </tr>

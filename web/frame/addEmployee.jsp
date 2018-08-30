@@ -1,14 +1,15 @@
+<%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head></head>
 <body>
 <table border="0" width="600px">
 <tr>
-<td align="center" style="font-size:24px; color:#666"> Ô±¹¤Ìí¼Ó</td>
+<td align="center" style="font-size:24px; color:#666"> å‘˜å·¥æ·»åŠ </td>
 </tr>
 <tr>
 <td align="right" > 
-<a href="#">±£´æ</a> &nbsp;&nbsp;
-<a href="#">ÍË»Ø</a>
+<a href="#">ä¿å­˜</a> &nbsp;&nbsp;
+<a href="#">é€€å›ž</a>
 </td>
 </tr>
 </table>
@@ -19,22 +20,22 @@
 
 <tr>
 
-<td>ÐÕÃû£º</td>
+<td>å§“åï¼š</td>
 <td><input type="text" /></td>
-<td>ÐÔ±ð£º</td>
+<td>æ€§åˆ«ï¼š</td>
 <td><input type="text" /></td>
 </tr>
 <tr>
-<td>³öÉúÈÕÆÚ£º</td>
+<td>å‡ºç”Ÿæ—¥æœŸï¼š</td>
 <td><input type="text" /></td>
-<td>ÈëÖ°Ê±¼ä£º</td>
+<td>å…¥èŒæ—¶é—´ï¼š</td>
 <td><input type="text" /></td>
 </tr>
 
 <tr>
-<td>ËùÊô²¿ÃÅ£º</td>
-<td><select><option>-----Çë--Ñ¡--Ôñ----</option></select></td>
-<td>±àºÅ£º</td>
+<td>æ‰€å±žéƒ¨é—¨ï¼š</td>
+<td><select><option>-----è¯·--é€‰--æ‹©----</option></select></td>
+<td>ç¼–å·ï¼š</td>
 <td><input type="text" /></td>
 </tr>
 </table>

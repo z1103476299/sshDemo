@@ -9,7 +9,7 @@
 </tr>
 <tr>
 <td>
-<img src="../images/bg.jpg" style="background-repeat:no-repeat" width="1500px" height="600px">
+<img src="${pageContext.request.contextPath}/images/bg.jpg" style="background-repeat:no-repeat" width="1500px" height="600px">
 </td>
 </tr>
 </table>

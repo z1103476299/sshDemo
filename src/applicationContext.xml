@@ -40,18 +40,33 @@
             <!--配置Hibernate映射-->
             <property name="mappingResources">
                 <list>
-                    <value>com/zzy/e/Product.hbm.xml</value>
+                    <value>com/zzy/entity/Department.hbm.xml</value>
+                    <value>com/zzy/entity/Employee.hbm.xml</value>
                 </list>
             </property>
         </bean>
 
         <!--配置action类-->
-
+            <bean id="employeeAction" class="com.zzy.action.EmployeeAction">
+                <property name="employeeService" ref="employeeService"/>
+            </bean>
+            <bean id="departmentAction" class="com.zzy.action.DepartmentAction">
+                <property name="departmentService" ref="departmentService"/>
+            </bean>
         <!--配置service类-->
-
+            <bean id="employeeService" class="com.zzy.service.EmployeeService">
+                <property name="employeeDao" ref="employeeDao"/>
+            </bean>
+            <bean id="departmentService" class="com.zzy.service.DepartmentService">
+                <property name="departmentDao" ref="departmentDao"/>
+            </bean>
         <!--配置DAO类-->
-
-
+            <bean id="employeeDao" class="com.zzy.dao.EmployeeDao">
+                <property name="sessionFactory" ref="sessionFactory"/>
+            </bean>
+            <bean id="departmentDao" class="com.zzy.dao.DepartmentDao">
+                <property name="sessionFactory" ref="sessionFactory"/>
+            </bean>
         <!--事务管理-->
         <bean id="transactionManager" class="org.springframework.orm.hibernate5.HibernateTransactionManager">
             <property name="sessionFactory" ref="sessionFactory"/>

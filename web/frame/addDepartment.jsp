@@ -1,14 +1,17 @@
+<%@ page contentType="text/html;charset=UTF-8" language="java" %>
+
 <html>
 <head></head>
+
 <body>
 <table border="0" width="600px">
 <tr>
-<td align="center" style="font-size:24px; color:#666"> ╡©целМ╪с</td>
+<td align="center" style="font-size:24px; color:#666"> И┐╗И≈╗Ф╥╩Е┼═</td>
 </tr>
 <tr>
 <td align="right" > 
-<a href="#">╠ё╢Ф</a> &nbsp;&nbsp;
-<a href="#">мк╩ь </a>
+<a href="#">Д©²Е╜≤</a> &nbsp;&nbsp;
+<a href="#">И──Е⌡· </a>
 </td>
 </tr>
 </table>
@@ -16,11 +19,11 @@
  <br>
 <table style="font-size:16px">
 <tr>
-  <td>╡©цецШЁфё╨</td>
+  <td>И┐╗И≈╗Е░█Г╖╟О╪ </td>
   <td><input type="text" /></td>
 </tr>
 <tr>
-  <td>╡©це╫Ииэё╨</td>
+  <td>И┐╗И≈╗Д╩▀Г╩█О╪ </td>
   <td></td>
 </tr>
 <tr>
