@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+    <class name="com.zzy.entity.Department" catalog="departemnt">
+        <id name="did" column="did">
+            <generator class="native"/>
+        </id>
+        <property name="dname" column="dname"/>
+        <property name="ddesc" column="ddesc"/>
+        <!--关联关系映射配置-->
+        <set name="employees">
+            <key column="dno"/>
+            <one-to-many class="com.zzy.entity.Employee"/>
+        </set>
+    </class>
+</hibernate-mapping>
