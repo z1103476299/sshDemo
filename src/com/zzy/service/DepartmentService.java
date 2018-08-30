@@ -3,9 +3,11 @@ package com.zzy.service;
 import com.zzy.dao.DepartmentDao;
 import com.zzy.entity.Department;
 import com.zzy.entity.PageBean;
+import org.springframework.transaction.annotation.Transactional;
 
 import java.util.List;
 
+@Transactional
 public class DepartmentService {
     private DepartmentDao departmentDao;
 
@@ -37,5 +39,13 @@ public class DepartmentService {
         List<Department> list = departmentDao.findByPage(begin,pageSize);
         pageBean.setList(list);
         return pageBean;
+    }
+
+    /**
+     * 业务层添加部门方法
+     * @param department
+     */
+    public void save(Department department) {
+        departmentDao.save(department);
     }
 }

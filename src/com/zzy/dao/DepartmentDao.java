@@ -27,4 +27,12 @@ public class DepartmentDao extends HibernateDaoSupport {
         List<Department> list = (List<Department>) this.getHibernateTemplate().findByCriteria(criteria,begin,pageSize);
         return  list;
     }
+
+    /**
+     * dao层保存部门方法
+     * @param department
+     */
+    public void save(Department department) {
+        this.getHibernateTemplate().save(department);
+    }
 }

@@ -38,4 +38,18 @@ public class DepartmentAction extends ActionSupport implements ModelDriven<Depar
         return  "findAll";
     }
 
+    //跳转到添加部门页面方法
+    public String saveUI(){
+        return "saveUI";
+    }
+
+    /**
+     * 保存部门方法
+     * @return
+     */
+    public String save(){
+        departmentService.save(department);
+        return "save_success";
+    }
+
 }
